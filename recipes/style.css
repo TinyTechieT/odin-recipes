@@ -1,0 +1,91 @@
+/* General styles */
+*{
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    background-color: rgb(255, 255, 124);
+}
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+h1{
+    font-size: 40px;
+    color: rgb(64, 21, 105);
+    background-color: rgb(225, 106, 146);
+    border-radius: 20px;
+    /* some extras */
+    padding: 10px;
+    margin: 15px auto;
+    width: 80%;
+}
+
+.box {
+    width: 80%;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.intro {
+    background-color: rgb(106, 195, 108);
+}
+
+.ingredients {
+    background-color: rgb(222, 163, 86);
+}
+
+.steps {
+    background-color: rgb(101, 174, 226);
+}
+
+.intro img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+a {
+    color: rgb(32, 104, 156);
+    /* text-decoration: none; */
+}
+
+.box h3 {
+    font-size: 32px;
+    color: rgb(64, 21, 105);
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    list-style-position: inside; /* Align icons close to text */
+    text-align: left; /* Align text to the left for better readability */
+    padding: 0 15px; /* Add horizontal padding */
+}
+
+h3{
+    font-size: 32px;
+    color: rgb(64, 21, 105);
+    margin-top: -5px;
+}
+
+
+li {
+    margin: 5px 0; /* Add space between list items */
+}
+
+.intro img, .intro p, .intro a{
+    background-color: rgb(106, 195, 108);
+}
+
+.ingredients h3, .ingredients ul, .ingredients li {
+    background-color: rgb(222, 163, 86);
+}
+
+.steps h3, .steps ol, .steps li{
+    background-color: rgb(101, 174, 226);
+}

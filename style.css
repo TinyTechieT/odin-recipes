@@ -1,0 +1,53 @@
+*{
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+    background-color: rgb(255, 255, 124);
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(64, 21, 105);
+    background-color: rgb(225, 106, 146);
+    border-radius: 20px;
+    /* some extras */
+    padding: 10px;
+    margin: 15px auto;
+    width: 80%;
+}
+
+.box {
+    background-color: rgb(106, 195, 108);
+    width: 80%;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-position: inside; /* Align icons close to text */
+    margin: 0;
+    padding: 0;
+    background-color: rgb(106, 195, 108);
+}
+
+li {
+    margin: 5px 0; /* Add space between list items */
+    background-color: rgb(106, 195, 108);
+}
+
+a{
+    font-size: 24px;
+    color: rgb(32, 104, 156);
+    background-color: rgb(106, 195, 108);
+    padding: 5px;
+}
+
+/* a:hover {
+    /* background-color: rgb(72, 154, 97); Slightly darker green on hover 
+    color: white;
+} */
